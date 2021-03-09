@@ -62,13 +62,14 @@ public class MainActivity extends AppCompatActivity {
         btnGrid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 btnList.setVisibility(View.VISIBLE);
                 btnGrid.setVisibility(View.GONE);
 
                 recyclerViewList.setVisibility(View.VISIBLE);
                 recyclerViewGrid.setVisibility(View.GONE);
 
-                initGridView();
+              //  initGridView();
                 getHelplineList();
             }
         });
@@ -83,8 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 recyclerViewList.setVisibility(View.GONE);
                 recyclerViewGrid.setVisibility(View.VISIBLE);
 
-
-                initRecyclerview();
+                //initRecyclerview();
                 getHelplineList();
 
             }
